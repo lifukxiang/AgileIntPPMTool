@@ -1,0 +1,289 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PMToolsUdemy",
+		"_postman_id": "281dedc5-d186-632a-fade-e376f59e1875",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Project",
+			"description": "",
+			"item": [
+				{
+					"name": "Create Project",
+					"request": {
+						"url": "http://localhost:8080/api/project",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Update Project",
+					"request": {
+						"url": "http://localhost:8080/api/project",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Project",
+					"request": {
+						"url": "http://localhost:8080/api/project/abcd",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Project",
+					"request": {
+						"url": "http://localhost:8080/api/project/abcd",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Project",
+					"request": {
+						"url": "http://localhost:8080/api/project/abcd",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Create Project copy",
+					"request": {
+						"url": "http://localhost:8080/api/project",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Create Project copy",
+					"request": {
+						"url": "http://localhost:8080/api/project",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Project Task",
+			"description": "",
+			"item": [
+				{
+					"name": "Create Project Task",
+					"request": {
+						"url": "http://localhost:8080/api/project",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Project Task By Project Identifier",
+					"request": {
+						"url": "http://localhost:8080/api/backlog/ABCD",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Project Task By Sequence",
+					"request": {
+						"url": "http://localhost:8080/api/backlog/ABCD",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Update Project Task",
+					"request": {
+						"url": "http://localhost:8080/api/backlog/ABCD",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Project Task",
+					"request": {
+						"url": "http://localhost:8080/api/backlog/ABCD",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"description": "",
+			"item": [
+				{
+					"name": "Create User",
+					"request": {
+						"url": "http://localhost:8080/api/project",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"projectName\":\"Test\",\n\t\"projectIdentifier\":\"IDTE\",\n\t\"description\": \"a new project\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
